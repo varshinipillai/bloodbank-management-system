@@ -1,59 +1,23 @@
-# bloodbank-management-system
-A full-stack web application for managing donors, patients, blood inventory, and blood requests using Flask, MySQL, and a HTML, CSS, JS frontend.
+# 🩸 Blood Bank Management System
 
-🚀 Features :
+A full-stack web app to manage blood donors, patients, inventory, and requests. Built with Flask, MySQL, HTML/CSS/JS.
 
-🧑‍🤝‍🧑 Donor & Patient CRUD management
+## Features
+- CRUD for Donors, Patients, Inventory, Requests
+- Real-time dashboard with recent donations
+- Interactive UI with modals and search
+- REST API using Flask
 
-🩹 Blood Inventory & Request tracking
+## Tech Stack
+- Frontend: HTML, CSS, JS
+- Backend: Python Flask
+- Database: MySQL
 
-📊 Dashboard with real-time stats & charts
-
-🔍 Dynamic search & filter functionality
-
-💾 MySQL backend with pre-seeded sample data
-
-🛠️ Tech Stack :
-
-Frontend: HTML, CSS (custom + responsive), JavaScript (Vanilla)
-
-Backend: Python Flask (REST API)
-
-Database: MySQL
-
-Others: Chart.js, FontAwesome, CORS
-
-
-📁 Project Structure
-
-├── app.py              # Flask backend with API routes
-
-├── bloodbank.sql   # MySQL schema + sample data
-
-├── index.html          # Main frontend interface
-
-├── style.css           # UI styling
-
-├── app.js              # Frontend logic & API integration
-
-🧩 Setup Instructions
-
-1. Database
-
-Import bloodbank.sql into your MySQL server
-
-Update DB credentials in app.py
-
-2. Backend
-
-pip install flask flask-cors mysql-connector-python
-
-python app.py
-
-3. Frontend
-
-Open index.html in your browser (served via localhost backend)
-
-💡 Author
-
-Made with ❤️ by Varshini
+## Setup
+1. Import `bloodbank_sql.sql` into MySQL
+2. Update DB credentials in `app.py`
+3. Run:
+   ```bash
+   pip install flask flask-cors mysql-connector-python
+   python app.py
+4. Open index.html
