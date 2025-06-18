@@ -20,7 +20,7 @@ def get_db_connection():
         conn = connect(
             host='127.0.0.1',
             user='root',
-            password='varshini1326',
+            password='###',
             database='bloodBank'
         )
         logging.debug("Database connection established.")
